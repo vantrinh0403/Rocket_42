@@ -9,6 +9,8 @@ insert into Department(department_name)
 -- insert data in Position
 ALTER TABLE `Position` CHANGE `position_name` `position_name`
 enum('Dev','Test','Scrum Master','PM', 'Giám đốc', 'Phó giám đốc', 'UX', 'BA', 'Dev-op') NOT NULL;
+insert into `Position`(position_name) 
+	values('Giám đốc'), ('Phó giám đốc'), ('UX'), ('BA'), ('Dev-op');
 
 -- insert data in Account
 insert into `Account`(email, user_name, full_name, department_id, position_id) 
@@ -133,6 +135,7 @@ select * from Account where  full_name like 'D%o';
 
 -- Question 12: Xóa tất cả các exam được tạo trước ngày 20/12/2019
 DELETE FROM Exam WHERE create_date <= '2019-12-20 00:00:00';
+
 
 -- Question 13: Xóa tất cả các question có nội dung bắt đầu bằng từ "câu hỏi"
 DELETE FROM Question WHERE content like 'câu hỏi%';

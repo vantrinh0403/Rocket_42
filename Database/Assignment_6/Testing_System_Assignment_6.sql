@@ -1,5 +1,5 @@
 use TestingSystem_2;
-
+select @@version;
 -- Question 1: Tạo store để người dùng nhập vào tên phòng ban và in ra tất cả các account thuộc phòng ban đó
 drop procedure if exists getAccountByDeName;
 DELIMITER $$
@@ -10,7 +10,7 @@ BEGIN
     inner join Department d
     on a.department_id = d.id
     where d.department_name = department_name;
-END$$
+END$$;
 DELIMITER ;
 
 Call getAccountByDeName("Kỷ thuật");
@@ -34,7 +34,7 @@ Call getNumberAccountInGroup();
 -- Solution 2: xem số account trong group khi nhập name group
 drop procedure if exists getNumberAcByGrName;
 DELIMITER $$
-CREATE PROCEDURE getNumberAcByGrName(in in_group_name varchar(50))
+CREATE PROCEDURE getNumberAcByGrName(in in_group_name nvarchar(50))
 BEGIN
 	select count(*) numberAccount
 	from GroupAccount ga
@@ -53,12 +53,12 @@ drop procedure if exists reportQuestionMonth;
 DELIMITER $$
 CREATE PROCEDURE reportQuestionMonth()
 BEGIN
-	select tq.*, count(q.id) numberQuestion
-	from Question q
-	inner join TypeQuestion tq
-	on q.type_id = tq.id
-	where MONTH(q.create_date) = MONTH(CURDATE())
-	group by type_id;
+	select tq.type_name, count(*) numberQuestion
+	from TypeQuestion tq
+	inner join Question q
+	on tq.id = q.type_id 
+	where MONTH(q.create_date) = MONTH(CURDATE()) and YEAR(q.create_date) = YEAR(CURDATE())
+	group by type_name;
 END$$
 DELIMITER ;
 
@@ -72,13 +72,26 @@ BEGIN
 	select type_id into id_type
 	from Question
 	group by type_id
-	order by count(id) desc
-	limit 1;
+	having count(id) = (SELECT MAX(numbera) FROM (SELECT COUNT(*) AS numbera FROM Question GROUP BY type_id) AS Results);
 END$$
 DELIMITER ;
 
 Call getIdMaxQuestion(@id_type);
 select @id_type;
+-- Không làm câu 5
+-- drop procedure if exists getIdMaxQuestion;
+-- DELIMITER $$
+-- CREATE PROCEDURE getIdMaxQuestion()
+-- BEGIN
+-- 	select type_id, count(id)
+-- 	from Question
+-- 	group by type_id
+-- 	having count(id) = (SELECT MAX(numbera) FROM (SELECT COUNT(*) AS numbera FROM Question GROUP BY type_id) AS Results);
+-- END$$
+-- DELIMITER ;
+
+-- Call getIdMaxQuestion();
+
 
 -- Question 5: Sử dụng store ở question 4 để tìm ra tên của type question
 
@@ -86,7 +99,8 @@ drop procedure if exists getTypeQuestionNameById;
 DELIMITER $$
 CREATE PROCEDURE getTypeQuestionNameById(in id_type_question bigint)
 BEGIN
-	select type_name from TypeQuestion where id = id_type_question;
+	
+	select type_name from TypeQuestion where id in (getIdMaxQuestion());
 END$$
 DELIMITER ;
 
@@ -96,7 +110,21 @@ Call getTypeQuestionNameById(@id_type);
 -- chứa chuỗi của người dùng nhập vào hoặc trả về user có username chứa
 -- chuỗi của người dùng nhập vào
 
+drop procedure if exists outGroupOfString;
+DELIMITER $$
+create procedure outGroupOfString(in in_string nvarchar(50))
+begin
+	select group_name as GroupName
+    from `Group`
+    where group_name like CONCAT('%', in_string, '%')
+    UNION 
+    select full_name as FullName
+    from `Account`
+    where user_name like CONCAT('%', in_string, '%');
+end $$
+DELIMITER ;
 
+Call outGroupOfString('Tom');
 
 -- Question 7: Viết 1 store cho phép người dùng nhập vào thông tin fullName, email và
 -- trong store sẽ tự động gán:

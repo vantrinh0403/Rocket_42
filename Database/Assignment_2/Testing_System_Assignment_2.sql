@@ -107,7 +107,7 @@ create table `ExamQuestion` (
 );
 
 -- insert data in Department
-insert into Deparment(department_name) 
+insert into Department(department_name) 
 	values('Marketing'), ('Sale'), ('Bảo vệ'), ('Nhân sự'), ('Kỷ thuật'), ('Tài chính'), ('Giám đốc'), ('Phó giám đốc'), ('Bán hàng');
     
 -- insert data in Position
@@ -143,9 +143,6 @@ insert into `GroupAccount`(group_id, account_id)
 -- insert data in TypeQuestion
 insert into `TypeQuestion`(type_name) 
 	values('Essay'), 
-    ('Essay'), 
-    ('Essay'), 
-    ('Multiple-Choice'),
     ('Multiple-Choice');
     
 -- insert data in CategoryQuestion
@@ -171,12 +168,12 @@ insert into `Question`(content, category_id, type_id, creator_id)
     
 -- insert data in Answer
 insert into `Answer`(content, question_id, is_correct) 
-	values('A. double	B. int	C. long	 D. long float', 1, 'D'), 
-    ('A. Get  B. Open  C. Extract  D. Select', 2, 'D'), 
+	values('A. double	B. int	C. long	 D. long float', 1, 'true'), 
+    ('A. Get  B. Open  C. Extract  D. Select', 2, 'true'), 
     ('A. <input type= "text"> 
 		B. <input type = "submit" 
 		C. <input type="password" 
-		D. <input type ="reset"', 3, 'B'), 
+		D. <input type ="reset"', 3, 'true'), 
     ('Checked Exception trong Java là các loại exception mà trình biên dịch yêu cầu lập trình viên phải xử lý hoặc khai báo bên trong khối mã, để đảm bảo việc xử lý exception được quyết định rõ ràng. Khi sử dụng các phương thức hoặc khối mã ném ra Checked Exception, lập trình viên buộc phải sử dụng khối try-catch hoặc khai báo sử dụng từ khóa throws để xử lý ngoại lệ này.', 4, 'true'),
     ('OOP (viết tắt của Object Orient Programming) . Lập trình hướng đối tượng là một phương pháp lập trình dựa trên khái niệm về lớp và đối tượng. OOP tập trung vào các đối tượng thao tác chúng hơn là logic để thao tác chúng.', 5, 'true');
 
