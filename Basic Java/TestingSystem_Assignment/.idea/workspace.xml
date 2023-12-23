@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9aa4779a-3627-4a6d-b04f-0483fd424e27" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Java-01/src/Java01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Assignment_1/Testing_System_Assignment_1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Assignment_1/Testing_System_Assignment_1.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Assignment_2/Testing_System_Assignment_2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Assignment_2/Testing_System_Assignment_2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Assignment_3/Testing_System_Asignment_3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Assignment_3/Testing_System_Asignment_3.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Assignment_5/Testing_System_Assignment_5.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Assignment_5/Testing_System_Assignment_5.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Database/Assignment_6/Testing_System_Assignment_6.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Assignment_6/Testing_System_Assignment_6.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2ZlOFmhqhpk8HpQeU537isEwL5s" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DayTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MysqlConnection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/0VTI/Rocket_42/Basic Java/TestingSystem_Assignment/src&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/0VTI/Rocket_42/Basic Java/TestingSystem_Assignment/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\0VTI\Rocket_42\Basic Java\TestingSystem_Assignment\src" />
+      <recent name="D:\0VTI\Rocket_42\Basic Java\TestingSystem_Assignment\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Program">
+    <configuration name="DayTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DayTwo" />
+      <module name="TestingSystem_Assignment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MysqlConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MysqlConnection" />
+      <module name="TestingSystem_Assignment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program" />
+      <module name="TestingSystem_Assignment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Program" />
+        <item itemvalue="Application.DayTwo" />
+        <item itemvalue="Application.MysqlConnection" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9aa4779a-3627-4a6d-b04f-0483fd424e27" name="Changes" comment="" />
+      <created>1702993101465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702993101465</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
