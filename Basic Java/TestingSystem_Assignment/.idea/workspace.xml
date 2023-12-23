@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9aa4779a-3627-4a6d-b04f-0483fd424e27" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Java-01/src/Java01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-01/src/Java01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-01/src/Java01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Database/Assignment_1/Testing_System_Assignment_1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Assignment_1/Testing_System_Assignment_1.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Database/Assignment_2/Testing_System_Assignment_2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Assignment_2/Testing_System_Assignment_2.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Database/Assignment_3/Testing_System_Asignment_3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../Database/Assignment_3/Testing_System_Asignment_3.sql" afterDir="false" />
@@ -108,43 +109,5 @@
       <updated>1702993101465</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="main" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
