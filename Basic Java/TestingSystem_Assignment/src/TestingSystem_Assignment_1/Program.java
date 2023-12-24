@@ -1,39 +1,10 @@
+package TestingSystem_Assignment_1;
+
+import java.util.Date;
+
 public class Program {
     public static void main(String[] args) {
-        FlowControl flowControl = new FlowControl();
-        //Question 1
-//        Account account2 = flowControl.Question_1();
-//        if (account2 == null){
-//            System.out.println("Nhân viên này chưa có phòng ban");
-//        } else {
-//            System.out.println("Phòng ban của nhân viên này là " + account2.department.departmentName);
-//        }
 
-        //Question 2
-//        int number = flowControl.Question_2();
-//        if (number == 0){
-//            System.out.println("Nhân viên này chưa có group");
-//        } else if (number == 1 || number == 2) {
-//            System.out.println("Group của nhân viên này là Java Fresher, C# Fresher");
-//        }else if (number == 3) {
-//            System.out.println("Nhân viên này là người quan trọng, tham gia nhiều group");
-//        }else if (number >= 4) {
-//            System.out.println("Nhân viên này là người hóng chuyện, tham gia tất cả các group");
-//        }else {
-//            System.out.println("Error !!!");
-//        }
-
-        //Question 3
-//        Account account3 = flowControl.Question_1();
-//        String mess = (account3 == null) ? ("Nhân viên này chưa có phòng ban") : ("Phòng ban của nhân viên này là " + account3.department.departmentName);
-//        System.out.println(mess);
-
-        //Question 4
-        Account account4 = flowControl.Question_4();
-        String q4 = (account4.position.positionName .equals("PM") ) ? ("Đây là Developer") : ("Người này không phải là Developer");
-        System.out.println(q4);
-
-    /*    Day 1
         //create department
         Department department1 = new Department();
         department1.id = 1;
@@ -215,7 +186,6 @@ public class Program {
         System.out.println("Tên đầy đủ: " + account1.fullName);
         System.out.println("Phòng ban: " + account1.department.departmentName);
         System.out.println("\n");
-        */
 
     }
 }

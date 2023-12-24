@@ -1,37 +1,25 @@
-import java.sql.*;
+package TestingSystem_Assignment_2;
 
-public class FlowControl {
-    private Connection con;
-    private Statement stmt;
-    private ResultSet rs;
+import ConnectMysql.MysqlConnection;
+import TestingSystem_Assignment_1.Account;
+import TestingSystem_Assignment_1.Department;
+import TestingSystem_Assignment_1.Gender;
+import TestingSystem_Assignment_1.Position;
 
-    public FlowControl() {
-        try {
-            Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
-            String url = "jdbc:mysql://127.0.0.1:3306/TestingSystem_2";
-            String user = "root";
-            String password = "root";
-            con = DriverManager.getConnection(url, user, password);
-            stmt = con.createStatement();
-        } catch (SQLException ex) {
-            // handle any errors
-            System.out.println("SQLException: " + ex.getMessage());
-            System.out.println("SQLState: " + ex.getSQLState());
-            System.out.println("VendorError: " + ex.getErrorCode());
-        } catch (ClassNotFoundException e) {
-            System.out.println(e.getMessage());
-        } catch (InstantiationException e) {
-            System.out.println(e.getMessage());
-        } catch (IllegalAccessException e) {
-            System.out.println(e.getMessage());
-        }
-    }
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
-// Exercise 1 (Optional): Flow Control - Question 1
-    public Account Question_1(){
+public class Exercise1 {
+
+    public static Account Question_1() {
         Account account1 = null;
-        try {
-            rs = stmt.executeQuery("select * from Account inner join Department on Account.department_id = Department.id limit 1,1;" );
+        String sql = "select * from Account inner join Department on Account.department_id = Department.id limit 1,1;";
+        try (Connection conn = MysqlConnection.getConnection();
+             Statement stmt = conn.createStatement();
+             ResultSet rs = stmt.executeQuery(sql)) {
+
             while (rs.next()) {
                 account1 = new Account();
                 account1.id = rs.getInt("id");
@@ -59,17 +47,17 @@ public class FlowControl {
         return account1;
     }
 
-//Exercise 1 (Optional): Flow Control - Question 2
-    public int Question_2(){
-        FlowControl flowControl = new FlowControl();
-        Account account2 = flowControl.Question_1();
+    public static int Question_2() {
+        Account account2 = Exercise1.Question_1();
         int number = 0;
-        //select count(*) from GroupAccount where account_id = 9;
-        try {
-            rs = stmt.executeQuery("select count(*) as number from GroupAccount where account_id =" + account2.id );
+        String sql = "select count(*) as number from GroupAccount where account_id =" + account2.id;
+
+        try (Connection conn = MysqlConnection.getConnection();
+             Statement stmt = conn.createStatement();
+             ResultSet rs = stmt.executeQuery(sql)) {
             while (rs.next()) {
 
-               number = rs.getInt("number");
+                number = rs.getInt("number");
             }
         } catch (SQLException ex) {
             // handle any errors
@@ -77,16 +65,15 @@ public class FlowControl {
             System.out.println("SQLState: " + ex.getSQLState());
             System.out.println("VendorError: " + ex.getErrorCode());
         }
-        return  number;
+        return number;
     }
 
-//Exercise 1 (Optional): Flow Control - Question 3 -> Program.java
-
-//Exercise 1 (Optional): Flow Control - Question 4
-    public Account Question_4(){
+    public static Account Question_4() {
         Account account4 = null;
-        try {
-            rs = stmt.executeQuery("select * from Account inner join Position on Account.position_id = Position.id limit 0,1;" );
+        String sql = "select * from Account inner join Position on Account.position_id = Position.id limit 0,1;";
+        try (Connection conn = MysqlConnection.getConnection();
+             Statement stmt = conn.createStatement();
+             ResultSet rs = stmt.executeQuery(sql)) {
             while (rs.next()) {
                 account4 = new Account();
                 account4.id = rs.getInt("id");
