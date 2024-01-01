@@ -5,11 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9aa4779a-3627-4a6d-b04f-0483fd424e27" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TestingSystem_Assignment_3/Exercise5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vti/frontend/testingsystem_assignment_1/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_1/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestingSystem_Assignment_1/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_3/Exercise4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestingSystem_Assignment_3/Exercise4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestingSystem_Assignment_3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_1/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/entity/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_1/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/entity/AccountDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_1/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/entity/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_1/CategoryQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/entity/CategoryQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_1/Day3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/backend/TestingSystem_Assignment_1/Day3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_1/DayTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/backend/TestingSystem_Assignment_1/DayTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_1/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/entity/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_1/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/entity/Exam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_1/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/entity/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_1/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/entity/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_1/GroupAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/entity/GroupAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_1/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/entity/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_1/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_1/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/entity/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_1/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/entity/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_1/TypeQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/entity/TypeQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_2/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/backend/TestingSystem_Assignment_2/Exercise1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/frontend/testingsystem_assignment_2/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_3/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/backend/TestingSystem_Assignment_3/Exercise1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_3/Exercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/backend/TestingSystem_Assignment_3/Exercise2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_3/Exercise3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/backend/TestingSystem_Assignment_3/Exercise3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_3/Exercise4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/backend/TestingSystem_Assignment_3/Exercise4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_3/Exercise5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/backend/TestingSystem_Assignment_3/Exercise5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestingSystem_Assignment_3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/frontend/testingsystem_assignment_3/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,26 +65,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Day3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DayTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MysqlConnection.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestingSystem_Assignment_3.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/0VTI/Rocket_42/Basic Java/TestingSystem_Assignment/src/TestingSystem_Assignment_2&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/0VTI/Rocket_42/Basic Java/TestingSystem_Assignment/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Day3.executor": "Run",
+    "Application.DayTwo.executor": "Run",
+    "Application.Exercise5.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MysqlConnection.executor": "Run",
+    "Application.Program.executor": "Run",
+    "Application.Program5.executor": "Run",
+    "Application.T_Assignment_4.executor": "Run",
+    "Application.TestingSystem_Assignment_3.Main.executor": "Run",
+    "Application.com.vti.backend.TestingSystem_Assignment_4.Exercise5.executor": "Run",
+    "Application.com.vti.entity.Main.executor": "Run",
+    "Application.com.vti.frontend.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/0VTI/Rocket_42/Basic Java/TestingSystem_Assignment/src/TestingSystem_Assignment_2",
+    "onboarding.tips.debug.path": "D:/0VTI/Rocket_42/Basic Java/TestingSystem_Assignment/src/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.import"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\0VTI\Rocket_42\Basic Java\TestingSystem_Assignment\src\TestingSystem_Assignment_2" />
@@ -73,24 +101,20 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\0VTI\Rocket_42\Basic Java\TestingSystem_Assignment\src\ConnectMysql" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.vti.entity" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="TestingSystem_Assignment_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestingSystem_Assignment_3.Main">
-    <configuration name="Day3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day3" />
-      <module name="TestingSystem_Assignment" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestingSystem_Assignment_2.Main" />
+  <component name="RunManager" selected="Application.Program5">
+    <configuration name="Exercise5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vti.backend.TestingSystem_Assignment_1.TestingSystem_Assignment_4.Exercise5" />
       <module name="TestingSystem_Assignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestingSystem_Assignment_2.*" />
+          <option name="PATTERN" value="com.vti.backend.TestingSystem_Assignment_1.TestingSystem_Assignment_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,26 +122,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MysqlConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConnectMysql.MysqlConnection" />
-      <module name="TestingSystem_Assignment" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Program" />
-      <module name="TestingSystem_Assignment" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestingSystem_Assignment_3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestingSystem_Assignment_3.Main" />
+    <configuration name="Program1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vti.frontend.testingsystem_assignment_4.Program1" />
       <module name="TestingSystem_Assignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestingSystem_Assignment_3.*" />
+          <option name="PATTERN" value="com.vti.frontend.testingsystem_assignment_4.Program4" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vti.frontend.testingsystem_assignment_4.Program4" />
+      <module name="TestingSystem_Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vti.frontend.testingsystem_assignment_4.Program4" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vti.frontend.testingsystem_assignment_4.Program5" />
+      <module name="TestingSystem_Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vti.frontend.testingsystem_assignment_4.Program4" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.vti.backend.TestingSystem_Assignment_1.TestingSystem_Assignment_3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vti.backend.TestingSystem_Assignment_1.TestingSystem_Assignment_3.Main" />
+      <module name="TestingSystem_Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vti.backend.TestingSystem_Assignment_1.TestingSystem_Assignment_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,13 +176,20 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestingSystem_Assignment_3.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MysqlConnection" />
-        <item itemvalue="Application.Day3" />
-        <item itemvalue="Application.Program" />
+        <item itemvalue="Application.Program5" />
+        <item itemvalue="Application.Program1" />
+        <item itemvalue="Application.Exercise5" />
+        <item itemvalue="Application.Program4" />
+        <item itemvalue="Application.com.vti.backend.TestingSystem_Assignment_1.TestingSystem_Assignment_3.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_392-corretto-1.8.0_392-249ae16d76d6-ec8bc16d" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -145,16 +201,5 @@
       <updated>1702993101465</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TestingSystem_Assignment_1/CategoryQuestion.java</url>
-          <line>1</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
